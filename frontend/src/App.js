@@ -1,4 +1,5 @@
 import React from 'react';
+import { Nav } from './components/Nav';
 import { TodoList } from './components/TodoList';
 
 export const App = () => {
@@ -6,7 +7,7 @@ export const App = () => {
 
     return (
         <>
-            <h1>ToDos:</h1>
+            <Nav />
             <TodoList />
         </>
     );

@@ -1,0 +1,6 @@
+.list-today {
+  background-color: #faf6eb;
+  /* opacity: 0.5; */
+  background-image: radial-gradient(#9e9d9d 0.5px, #faf6eb 0.5px);
+  background-size: 10px 10px;
+}

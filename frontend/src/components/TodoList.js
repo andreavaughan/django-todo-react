@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
+import '../styles/todolist.css'
 
 
 export const TodoList = () => {
@@ -23,15 +24,17 @@ export const TodoList = () => {
 
     return (
         <>
-            <h2>List:</h2>
-            {todoList.map((todo, idx) => {
-                return (
-                    <div className="todo-item" key={idx}>
-                        <h3>{todo.title}</h3>
-                        <p>{todo.description}</p>
-                    </div>
-                )
-            })}
+            <div className="list-today">
+                <h2>Today's To Dos:</h2>
+                {todoList.map((todo, idx) => {
+                    return (
+                        <div className="todo-item" key={idx}>
+                            <h3>{todo.title}</h3>
+                            <p>{todo.description}</p>
+                        </div>
+                    )
+                })}
+            </div>
         </>
     );
 }
