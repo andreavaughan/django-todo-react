@@ -29,8 +29,7 @@ export const TodoList = () => {
                 {todoList.map((todo, idx) => {
                     return (
                         <div className="todo-item" key={idx}>
-                            <h3>{todo.title}</h3>
-                            <p>{todo.description}</p>
+                            <p>{todo.title}</p>
                         </div>
                     )
                 })}
