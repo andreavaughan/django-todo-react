@@ -8,15 +8,15 @@ export const Nav = () => {
                 <li>
                     <Link to="/">Home/Logo</Link>
                 </li>
-                {/* <li>
-                    <Link>Calendar</Link>
+                <li>
+                    <Link to="/calendar">Calendar</Link>
                 </li>
                 <li>
-                    <Link>Habits</Link>
+                    <Link to="/habits">Habits</Link>
                 </li>
                 <li>
-                    <Link>Settings</Link>
-                </li> */}
+                    <Link to="/settings">Settings</Link>
+                </li>
             </ul>
         </nav>
     );
